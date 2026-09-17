@@ -1,0 +1,27 @@
+[33m00bce2d[m Initial Cosmic Butterfly Effect simulation
+ .gitignore                                         |  10 [32m+[m
+ .python-version                                    |   1 [32m+[m
+ README.md                                          |  99 [32m+++++[m
+ imgui.ini                                          |  10 [32m+[m
+ pyproject.toml                                     |  21 [32m++[m
+ src/cosmic_butterfly/__init__.py                   |   3 [32m+[m
+ src/cosmic_butterfly/app.py                        | 172 [32m+++++++++[m
+ src/cosmic_butterfly/experiments/__init__.py       |  12 [32m+[m
+ src/cosmic_butterfly/experiments/divergence.py     |  14 [32m+[m
+ src/cosmic_butterfly/experiments/perturbation.py   |  11 [32m+[m
+ src/cosmic_butterfly/experiments/scenarios.py      |  95 [32m+++++[m
+ .../experiments/search_scenario.py                 |  57 [32m+++[m
+ src/cosmic_butterfly/physics/__init__.py           |  17 [32m+[m
+ src/cosmic_butterfly/physics/constants.py          |  12 [32m+[m
+ src/cosmic_butterfly/physics/gravity.py            |  39 [32m++[m
+ src/cosmic_butterfly/physics/integrator.py         |  55 [32m+++[m
+ src/cosmic_butterfly/physics/invariants.py         |  38 [32m++[m
+ src/cosmic_butterfly/physics/simulation.py         |  50 [32m+++[m
+ src/cosmic_butterfly/physics/units.py              |  29 [32m++[m
+ src/cosmic_butterfly/visualization/__init__.py     |   3 [32m+[m
+ src/cosmic_butterfly/visualization/renderer.py     | 410 [32m+++++++++++++++++++++[m
+ test_gui.py                                        |  30 [32m++[m
+ tests/test_invariants.py                           |  74 [32m++++[m
+ tests/test_two_body.py                             |  52 [32m+++[m
+ uv.lock                                            | 216 [32m+++++++++++[m
+ 25 files changed, 1530 insertions(+)
